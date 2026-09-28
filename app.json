@@ -1,0 +1,31 @@
+{
+  "expo": {
+    "name": "Freelance Invoice Pro",
+    "slug": "freelance-invoice-pro",
+    "version": "1.2.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.freelancer.invoicepro",
+      "infoPlist": {
+        "NSCameraUsageDescription": "Freelance Invoice Pro uses the camera to capture photos of paper receipts for your expense log.",
+        "NSPhotoLibraryUsageDescription": "Freelance Invoice Pro needs access to your photos so you can attach an existing receipt image."
+      }
+    },
+    "android": {
+      "package": "com.freelancer.invoicepro",
+      "permissions": [
+        "CAMERA",
+        "READ_EXTERNAL_STORAGE"
+      ],
+      "adaptiveIcon": {
+        "backgroundColor": "#09090B"
+      }
+    },
+    "web": {
+      "bundler": "metro"
+    },
+    "backgroundColor": "#09090B"
+  }
+}
